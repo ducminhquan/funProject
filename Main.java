@@ -1,6 +1,10 @@
+import java.util.Date;
+
 public class Main {
 
 	public static void main(String[] args) {
+		Date date = new Date();
+		
 		for (int a = 1; a <= 9; a += 2) {
 			if (a != 5) {
 				for (int b = 2; b <= 8; b += 2) {
@@ -20,7 +24,7 @@ public class Main {
 														        && (f * 100 + g * 10 + h) % 8 == 0) {
 															for (int i = 1; i <= 9; i += 2) {
 																if (i != a && i != c && i != 5 && i != g) {
-																	System.out.printf("%d%d%d%d%d%d%d%d%d",a,b,c,d,5,f,g,h,i);
+																	System.out.printf("%d%d%d%d%d%d%d%d%d\n",a,b,c,d,5,f,g,h,i);
 																}
 															}
 														}
@@ -36,5 +40,7 @@ public class Main {
 				}
 			}
 		}
+		System.out.println(new Date().getTime() - date.getTime());
+		
 	}
 }
