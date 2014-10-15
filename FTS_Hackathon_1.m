@@ -14,7 +14,7 @@ for i = 1:size(allcases,1)
         num = -1;
     end
     if (num ~= -1)
-        sprintf('RAAAAAAAAAAAAA NE: %d\n', abc)
+        sprintf('RAAAAAAAAAAAAA NE: %d\n', num)
 %         break;
     end
 end    
