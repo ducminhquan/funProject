@@ -20,15 +20,7 @@ public class Main {
 														        && (f * 100 + g * 10 + h) % 8 == 0) {
 															for (int i = 1; i <= 9; i += 2) {
 																if (i != a && i != c && i != 5 && i != g) {
-																	System.out.print(a);
-																	System.out.print(b);
-																	System.out.print(c);
-																	System.out.print(d);
-																	System.out.print('5');
-																	System.out.print(f);
-																	System.out.print(g);
-																	System.out.print(h);
-																	System.out.print(i);
+																	System.out.printf("%d%d%d%d%d%d%d%d%d",a,b,c,d,5,f,g,h,i);
 																}
 															}
 														}
