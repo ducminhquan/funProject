@@ -13,5 +13,7 @@ Hãy lập một số có 9 chữ số abcdefghk  sao cho ab chia hết cho 2; a
 There are some versions:
 * [NodeJS](main.js)
 * [NodeJS Recursion](nodejs-recursion.js)
+  - [Optimize #1 (3ms)](nodejs-recursion-2.js)
+  - [Optimize #1 (2ms)](nodejs-recursion-3.js)
 * [Java](Main.java)
 * [Matlab](FTS_Hackathon_1.m)
