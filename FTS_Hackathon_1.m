@@ -10,12 +10,9 @@ for i = 1:size(allcases,1)
             break;
         end
     end
-    if (flag == 0)
-        num = -1;
-    end
-    if (num ~= -1)
+    if (flag ~= 0)
         sprintf('RAAAAAAAAAAAAA NE: %d\n', num)
 %         break;
-    end
+    end    
 end    
 
