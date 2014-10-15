@@ -16,4 +16,5 @@ There are some versions:
   - [Optimize #1 (3ms)](nodejs-recursion-2.js)
   - [Optimize #2 (2ms)](nodejs-recursion-3.js)
 * [Java](Main.java)
+* [Java Recursive](MainRecursive.java)
 * [Matlab](FTS_Hackathon_1.m)
