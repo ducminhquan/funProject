@@ -11,5 +11,5 @@ Hãy lập một số có 9 chữ số abcdefghk  sao cho ab chia hết cho 2; a
 
 ##Solutions
 There are 2 versions:
-* NodeJS(main.js)
-* Java(Main.java)
+* [NodeJS](main.js)
+* [Java](Main.java)
